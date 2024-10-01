@@ -1,0 +1,328 @@
+body {
+    font-family: "Josefin Sans", system-ui;
+  }
+  /* nav */
+  .header {
+    justify-content: space-between;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    list-style: none;
+    padding-right: 50px;
+    font-size: 26px;
+  }
+  ul li :hover {
+    color: #496bf1;
+  }
+  .nav-container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    padding-left: 40px;
+  }
+  /* nav */
+  /* main */
+  h1 {
+    padding-top: 30%;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 30px;
+    color: #496bf1;
+    text-shadow: 1px 1px 3px rgb(141, 141, 141);
+    padding-left:20% ;
+    margin-left: 20;
+  }
+  .p {
+    font-style: normal;
+    font-size: 15px;
+    margin: auto;
+    max-width: 800px;
+    line-height: 1.5;
+    padding-left: 20%;
+    text-align: right;
+    padding-top: 20px;
+  }
+  .hero-section {
+    background-image: url("../images/hero-section-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 80vh;
+  }
+  .hero-content {
+    padding: 30px;
+    border-radius: 2px;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    padding-right: 50px;
+    text-align: left;
+    border-right: 5px;
+    padding-left: 50%;
+  }
+  .hero-content h1 {
+    color: #496bf1;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 10%;
+  }
+  .hero-content p {
+    color: #000;
+    margin: auto;
+    max-width: 650px;
+    line-height: 1.8;
+    text-align: left;
+    position: relative;
+  }
+  .btn-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    color: white;
+    margin-left:20%
+  }
+  .btn {
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    
+  }
+  .about-us {
+    width: 10;
+    background-color: #496bf1;
+  }
+  .book-appointment {
+    width: 10;
+    background-color: #2dd6c1;
+  }
+  /* .book appointment {
+    width: 90;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .services {
+    display: flex;
+    justify-content: flex start;
+    padding: 40px 0;
+    gap: 40px;
+  }
+  .service-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 50px;
+  }
+  .service {
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    text-align: center;
+  }
+  .service h3 {
+    margin-bottom: 15px;
+    color: #496bf1;
+  }
+  /* h3 p {
+    align-items: baseline;
+  } */
+  #about {
+    color: #2dd6c1;
+  }
+  #thousands {
+    color: #496bf1;
+  }
+  .about-section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .about-container {
+    height: 30vh;
+    background-color: #f9f9f9;
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 50px;
+  }
+  .about-image {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .text {
+    margin-bottom: 15px;
+    padding-left: 10%;
+    font-size: 32px;
+  }
+  .about-title {
+    padding-left: 6%;
+  }
+  .button-container {
+    padding-left: 6%;
+  }
+  #b {
+    color: #496bf1;
+  }
+  #o{
+    font-size: 20px;
+  }
+  .read {
+    width: 100px;
+    background-color: #496bf1;
+  }
+  .testimonial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-header {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+  .about-lucy {
+    display: flex;
+    justify-content: center;
+    color: #496bf1;
+  }
+  .about-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10vh;
+    gap: 20px;
+  }
+  .item {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .item1 {
+    background-color: #496bf1;
+  }
+  .item2 {
+    background-color: #2dd6c1;
+  }
+  .item3 {
+    background-color: #2dd6c1;
+  }
+  .main-header {
+    text-align: center;
+  }
+  .contact {
+    background-image: url(../images/contact-section-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 80vh;
+  }
+  .input {
+    margin: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .name {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+  }
+  .email {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+  }
+  .subject {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+  }
+  .message {
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+  }
+  .btn-container {
+     padding-top: 30px; 
+  }
+  .btn-submit {
+    width: 10;
+    background-color: #496bf1;
+    /* padding: 20px 30px; */
+    margin-right: 80%;
+  }
+  /* main */
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ul-footer {
+    list-style: none;
+  }
+  .footer-icon {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  
+  .social-handles {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 35px;
+    gap: 50px;
+  }
+  #image {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  #list {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .footer-section {
+    display: flex;
+    gap: 10%;
+  }
+  #bars{
+    padding-top:20px
+  }
+  /* media query */
+  @media screen and (max-width:600px){
+  nav div ul li a{
+    display:none
+  }
+  }
